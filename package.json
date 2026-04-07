@@ -13,7 +13,8 @@
     "release": "pnpm --filter @yonatang/hollow-js run build && changeset publish"
   },
   "workspaces": [
-    "lib"
+    "lib",
+    "demo"
   ],
   "devDependencies": {
     "@changesets/cli": "^2.27.1"
