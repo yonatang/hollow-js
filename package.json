@@ -1,0 +1,21 @@
+{
+  "name": "hollow-js-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hollow.js monorepo - library and demo",
+  "scripts": {
+    "build": "pnpm --filter @yonatang/hollow-js run build",
+    "test": "pnpm --filter @yonatang/hollow-js run test",
+    "pack:local": "pnpm --filter @yonatang/hollow-js run pack:local",
+    "install:demo": "pnpm --filter @yonatang/hollow-js run install:demo",
+    "dev:demo": "pnpm --filter demo run dev",
+    "build:demo": "pnpm --filter demo run build",
+    "release": "pnpm --filter @yonatang/hollow-js run build && changeset publish"
+  },
+  "workspaces": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1"
+  }
+}
