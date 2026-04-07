@@ -1,6 +1,6 @@
 {
   "name": "@yonatang/hollow-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JavaScript implementation of Netflix Hollow - an in-memory data model framework",
   "homepage": "https://github.com/yonatang/hollow-js",
   "type": "module",
@@ -40,4 +40,3 @@
     "rollup": "^4.9.6"
   }
 }
-
