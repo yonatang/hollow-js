@@ -21,9 +21,9 @@ export function HollowBrowser() {
             // Load snapshot from public directory
             // const engine = await consumer.loadSnapshot('/binaries/snapshots/snapshot-20260322184645001');
             // const engine = await consumer.loadSnapshot('https://datasets.vip.ebay.com/v1/dataset/category_structure/2/20260226045439001/snapshot');
-            const engine: HollowReadStateEngine = await consumer.loadSnapshot('/binaries/category_structure/snapshot-20260226045439001');
+            // const engine: HollowReadStateEngine = await consumer.loadSnapshot('/binaries/category_structure/snapshot-20260226045439001');
             // const engine = await consumer.loadSnapshot('/binaries/snapshots/snapshot-20260325055312001');
-            // const engine = await consumer.loadSnapshot('/binaries/snapshots/snapshot-20260405040910001');
+            const engine = await consumer.loadSnapshot('/binaries/snapshots/snapshot-20260405040910001');
 
             setStateEngine(engine);
 
