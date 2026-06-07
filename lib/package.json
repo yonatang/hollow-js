@@ -8,6 +8,13 @@
   "module": "dist/hollow.esm.js",
   "browser": "dist/hollow.umd.js",
   "types": "dist/hollow.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/hollow.esm.js",
+      "require": "./dist/hollow.js",
+      "types": "./dist/hollow.d.ts"
+    }
+  },
   "files": [
     "dist",
     "src",
