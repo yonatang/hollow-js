@@ -1,7 +1,6 @@
 name: Publish Release
 
 on:
-  workflow_dispatch: {}
   push:
     branches:
       - main
@@ -29,14 +28,13 @@ jobs:
       - name: Check if version changed
         id: version_check
         run: |
-          echo "changed=true" >> $GITHUB_OUTPUT
-#          if git diff HEAD~1 HEAD -- lib/package.json | grep -q '"version"'; then
-#            echo "changed=true" >> $GITHUB_OUTPUT
-#            echo "Version changed, proceeding with publish"
-#          else
-#            echo "changed=false" >> $GITHUB_OUTPUT
-#            echo "Version unchanged, skipping publish"
-#          fi
+          if git diff HEAD~1 HEAD -- lib/package.json | grep -q '"version"'; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Version changed, proceeding with publish"
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "Version unchanged, skipping publish"
+          fi
 
       - name: Setup pnpm
         if: steps.version_check.outputs.changed == 'true'
