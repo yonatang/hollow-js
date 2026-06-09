@@ -3,6 +3,10 @@
   "version": "0.2.0",
   "description": "JavaScript implementation of Netflix Hollow - an in-memory data model framework",
   "homepage": "https://github.com/yonatang/hollow-js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yonatang/hollow-js"
+  },
   "type": "module",
   "main": "dist/hollow.js",
   "module": "dist/hollow.esm.js",
