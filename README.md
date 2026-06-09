@@ -1,5 +1,7 @@
 # Hollow.js
 
+[![npm version](https://img.shields.io/npm/v/@yonatang/hollow-js)](https://www.npmjs.com/package/@yonatang/hollow-js)
+
 A JavaScript port of [Netflix Hollow](https://hollow.how/) for reading and browsing snapshot data in browsers.
 
 ## Overview
