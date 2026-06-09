@@ -1,5 +1,11 @@
 # @yonatang/hollow-js
 
+## 0.2.0
+
+### Minor Changes
+
+- 960d100: Fix severe loading performance issues
+
 ## 0.1.2
 
 ### Patch Changes
