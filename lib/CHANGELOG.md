@@ -1,5 +1,11 @@
 # @yonatang/hollow-js
 
+## 0.2.2
+
+### Patch Changes
+
+- 2a7d191: fixed issue with reading multisharded large snapshots
+
 ## 0.2.1
 
 ### Patch Changes
