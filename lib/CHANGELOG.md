@@ -1,5 +1,11 @@
 # @yonatang/hollow-js
 
+## 0.2.1
+
+### Patch Changes
+
+- a403074: Fix issue reading large snapshots with multiple shards
+
 ## 0.2.0
 
 ### Minor Changes
