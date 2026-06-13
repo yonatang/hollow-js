@@ -1,5 +1,11 @@
 # @yonatang/hollow-js
 
+## 0.2.3
+
+### Patch Changes
+
+- 44e189c: added tools for more advanced iterations
+
 ## 0.2.2
 
 ### Patch Changes
